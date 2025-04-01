@@ -1,3 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: #F1B9DE;
+    height: 100%;
+    position: fixed;
+}
+li {
+    background-color: #F1B9DE;
+    display: block;
+}
+li a:hover{
+    background-color: #989DE1;
+    display: block;
+}
+li :last-child{
+    background-color: #989DE1;
+}
 .front {
     background-color: bisque;
     color:blue;
@@ -8,4 +27,16 @@
     background-size: 100% 100%;
 
     
+}
+.menu {
+    display:block;
+
+}
+.sides {
+    background-image: url(photos/mousebackground.png);
+    background-color: #1F2041;
+    background-repeat: repeat;
+    float:right;
+    height:max-content;
+    width:30%;
 }
