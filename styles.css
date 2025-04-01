@@ -22,9 +22,8 @@ li :last-child{
     background-size: 100% 100%;
     margin: 0%;
 }
-.menu {
-    display:block;
-
+.main {
+    background-color: #1F2041;
 }
 .sides {
     background-image: url(photos/mousebackground.png);
@@ -32,6 +31,5 @@ li :last-child{
     background-repeat: repeat-x, repeat-y;
     float:right;
     height:100%;
-    position: static;
     width:30%;
 }
