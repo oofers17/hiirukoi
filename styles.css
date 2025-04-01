@@ -4,7 +4,8 @@
 }
 .clove {
     background-image:linear-gradient(#F1B9DE,#989DE1);
-    height:max-content;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
     
 }
