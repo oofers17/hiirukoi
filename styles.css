@@ -9,14 +9,13 @@ ul {
 }
 li {
     background-color: #F1B9DE;
+    width: 30%;
     display: block;
 }
 li a:hover{
     background-color: #989DE1;
+    width: 30%;
     display: block;
-}
-li :last-child{
-    background-color: #989DE1;
 }
 .base {
     background-color: #1F2041;
@@ -30,7 +29,6 @@ li :last-child{
 }
 .sides {
     background-color: #1F2041;
-    border: #989DE1;
     float:right;
     height:100%;
     width:30%;
