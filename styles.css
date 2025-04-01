@@ -1,31 +1,34 @@
 ul {
     list-style-type: none;
     margin: 0%;
-    padding: 2%;
     background-color: #F1B9DE;
     font-size: large;
-    padding-right: 4%;
     width: 18%;
     height: 100%;
     position: fixed;
 }
 li {
     background-color: #F1B9DE;
+    font-size: medium;
+    padding: 2%;
     width: 18%;
     display: block;
 }
 li a:hover{
     background-color: #989DE1;
     width: 18%;
+    padding: 2%;
     display: block;
 }
 .base {
     background-color: #1F2041;
     margin: 0%;
+    width: 100%;
 }
 .main {
     background-color: #acadd8;
     font-size: 15px;
+    width: 60%;
     text-align: left;
     padding: 3%;
 }
