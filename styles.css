@@ -17,16 +17,10 @@ li a:hover{
 li :last-child{
     background-color: #989DE1;
 }
-.front {
-    background-color: bisque;
-    color:blue;
-}
 .clove {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 0%;
-
-    
 }
 .menu {
     display:block;
@@ -35,7 +29,7 @@ li :last-child{
 .sides {
     background-image: url(photos/mousebackground.png);
     background-color: #1F2041;
-    background-repeat: repeat;
+    background-repeat: repeat-x, repeat-y;
     float:right;
     height:100%;
     position: static;
