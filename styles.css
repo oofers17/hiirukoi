@@ -17,9 +17,8 @@ li a:hover{
 li :last-child{
     background-color: #989DE1;
 }
-.clove {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.base {
+    background-color: #1F2041;
     margin: 0%;
 }
 .main {
