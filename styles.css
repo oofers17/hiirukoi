@@ -3,6 +3,7 @@ ul {
     margin: 0%;
     padding: 0%;
     background-color: #F1B9DE;
+    width: 30%;
     height: 100%;
     position: fixed;
 }
@@ -22,12 +23,14 @@ li :last-child{
     margin: 0%;
 }
 .main {
-    background-color: #1F2041;
+    background-color: #acadd8;
+    font-size: 15px;
+    text-align: left;
+    padding: 3%;
 }
 .sides {
-    background-image: url(photos/mousebackground.png);
     background-color: #1F2041;
-    background-repeat: repeat-x, repeat-y;
+    border: #989DE1;
     float:right;
     height:100%;
     width:30%;
