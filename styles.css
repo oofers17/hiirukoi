@@ -20,6 +20,12 @@ li a:hover{
     padding: 2%;
     display: block;
 }
+.nav{
+    font-size: medium;
+    color: #1F2041;
+    font-style: normal;
+}
+
 .base {
     background-color: #1F2041;
     margin: 0%;
