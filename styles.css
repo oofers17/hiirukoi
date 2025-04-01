@@ -22,9 +22,9 @@ li :last-child{
     color:blue;
 }
 .clove {
-    background-image:linear-gradient(#F1B9DE,#989DE1);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin: 0%;
 
     
 }
@@ -37,6 +37,7 @@ li :last-child{
     background-color: #1F2041;
     background-repeat: repeat;
     float:right;
-    height:max-content;
+    height:100%;
+    position: static;
     width:30%;
 }
