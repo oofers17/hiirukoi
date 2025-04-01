@@ -10,14 +10,12 @@ ul {
 li {
     background-color: #F1B9DE;
     font-size: medium;
-    padding: 2%;
     width: 18%;
     display: block;
 }
 li a:hover{
     background-color: #989DE1;
     width: 18%;
-    padding: 2%;
     display: block;
 }
 .nav{
@@ -29,11 +27,13 @@ li a:hover{
 .base {
     background-color: #1F2041;
     margin: 0%;
+    overflow: auto;
     width: 100%;
 }
 .main {
     background-color: #acadd8;
     font-size: 15px;
+    float: left;
     width: 60%;
     text-align: left;
     padding: 3%;
