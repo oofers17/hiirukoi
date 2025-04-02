@@ -9,13 +9,15 @@
     width: 85%;
     left: 15%;
     overflow: hidden;
-    padding-left: 2%;
     background-color: #F1B9DE;
 }
 .main {
     background-color: antiquewhite;
-    width: 95%;
-    min-height: 95%;
+    min-height: 94%;
+    margin: 2%;
+}
+.textbox {
+    color:#812e66;
 }
 .boxbox {
     position: fixed;
@@ -33,7 +35,7 @@ div.boxbox a{
     font-size: 2em;
     color: #F1B9DE;
     padding: 1em 100% 1em 100%;
-    margin: 0 -100% 0 -90%;
+    margin: 0 -100% 0 -85%;
     display: block;
 }
 div.boxbox a:hover{
