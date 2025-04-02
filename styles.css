@@ -2,15 +2,29 @@
     margin: 0%;
     position: relative;
 }
+.back {
+    position: fixed;
+    height: 100%;
+    width: 85%;
+    left: 15%;
+    overflow: hidden;
+    padding-left: 2%;
+    background-color: #F1B9DE;
+}
+.main {
+    background-color: antiquewhite;
+    width: 95%;
+    min-height: 95%;
+
+}
 .boxbox {
-    display: flexbox;
     position: fixed;
     flex-direction: column;
     background-color: #1F2041;
+    z-index: 3;
     height: 100%;
-    max-width: 20vw;
+    max-width: 15%;
     min-width: 15%;
-    z-index: 1;
     overflow-x: hidden;
 }
 div.boxbox a{
