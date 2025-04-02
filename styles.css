@@ -11,7 +11,6 @@
     max-width: 20vw;
     min-width: 15%;
     z-index: 1;
-    padding-top: 2em;
     overflow-x: hidden;
 }
 div.boxbox a{
@@ -20,7 +19,7 @@ div.boxbox a{
     font-size: 2em;
     color: #F1B9DE;
     padding: 1em 100% 1em 100%;
-    margin: 0 -90% 0 -90%;
+    margin: 0 -100% 0 -90%;
     display: block;
 }
 div.boxbox a:hover{
