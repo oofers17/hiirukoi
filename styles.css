@@ -1,6 +1,7 @@
 .bod {
     margin: 0%;
     position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .back {
     position: fixed;
@@ -15,7 +16,6 @@
     background-color: antiquewhite;
     width: 95%;
     min-height: 95%;
-
 }
 .boxbox {
     position: fixed;
