@@ -46,14 +46,30 @@
     width:30%;
 }
 .cat {
-    box-sizing: content-box;
-}
-.dog {
-    list-style-type: none;
-    font-size: 15px;
     margin: 0%;
-    padding-block: 2em 2em;
-    padding-inline: 2em 6em;   
-    color: #F1B9DE;
+}
+ul.dog {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 15%;
+    height: 100%;
     background-color: #1F2041;
+}
+ul.dog li {
+    padding: 1em 0em 1em 3em;
+}
+
+ul.dog li a {
+    color:#F1B9DE;
+    text-decoration: none;
+    font-size: 2em;
+}
+.logo {
+    width: 15em;
+    height: 15em;
+}
+.boxbox {
+    display:inline-block;
+    margin:0%;
 }
