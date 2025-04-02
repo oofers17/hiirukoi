@@ -1,75 +1,47 @@
-#ul {
-    list-style-type: none;
+.bod {
     margin: 0%;
-    background-color: #F1B9DE;
-    font-size: large;
-    width: 18%;
-    height: 100%;
-    position: fixed;
-}
-#li {
-    background-color: #F1B9DE;
-    font-size: medium;
-    width: 18%;
-    display: block;
-}
-#li #a:hover{
-    background-color: #989DE1;
-    width: 18%;
-    display: block;
-}
-
-.nav{
-    font-size: medium;
-    color: #1F2041;
-    font-style: normal;
-}
-
-.base {
-    background-color: #1F2041;
-    margin: 0%;
-    overflow: auto;
-    width: 100%;
-}
-.main {
-    background-color: #acadd8;
-    font-size: 15px;
-    float: left;
-    width: 60%;
-    text-align: left;
-    padding: 3%;
-}
-.sides {
-    background-color: #1F2041;
-    float:right;
-    height:100%;
-    width:30%;
-}
-.cat {
-    margin: 0%;
-}
-ul.dog {
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    width: 15%;
-    height: 100%;
-    background-color: #1F2041;
-}
-ul.dog li {
-    padding: 1em 0em 1em 3em;
-}
-
-ul.dog li a {
-    color:#F1B9DE;
-    text-decoration: none;
-    font-size: 2em;
-}
-.logo {
-    width: 15em;
-    height: 15em;
+    position: relative;
 }
 .boxbox {
-    display:inline-block;
-    margin:0%;
+    display: flexbox;
+    position: fixed;
+    flex-direction: column;
+    background-color: #1F2041;
+    height: 100%;
+    max-width: 20vw;
+    min-width: 15%;
+    z-index: 1;
+    padding-top: 2em;
+    overflow-x: hidden;
+}
+div.boxbox a{
+    position: relative;
+    text-decoration: none;
+    font-size: 2em;
+    color: #F1B9DE;
+    padding: 1em 100% 1em 100%;
+    margin: 0 -90% 0 -90%;
+    display: block;
+}
+div.boxbox a:hover{
+    color: #812e66;
+    background-color: aquamarine;
+}
+.stay {
+    display: block;
+    padding-left: 3em;
+}
+.vanish{
+    display: none;
+    position: absolute;
+    padding-left: 3em;
+    z-index: 1;
+}
+.section:hover div.vanish{
+    display: block;
+    position: relative;
+}
+div.vanish:hover {
+    display: block;
+    position: relative;
 }
