@@ -18,6 +18,18 @@
 }
 .textbox {
     color:#812e66;
+    padding: 2vw;
+}
+#logo {
+    width: 10vw;
+    
+    height: 10vw;
+}
+.cent {
+    height: 10vw;
+    width: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .boxbox {
     position: fixed;
@@ -26,7 +38,7 @@
     z-index: 3;
     height: 100%;
     max-width: 15%;
-    min-width: 15%;
+    min-width: 15vw;
     overflow-x: hidden;
 }
 div.boxbox a{
