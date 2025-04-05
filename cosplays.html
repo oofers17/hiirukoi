@@ -3,11 +3,17 @@
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <script>
+            function mouse () {
+                var element = document.body;
+                element.classList.toggle("mouse");
+            }
+        </script>
     </head>
-    <body class="bod">
+    <body>
         <div class="boxbox">
             <div class="cent">
-            <img id="logo" src="photos/catt.png">
+            <img onclick="mouse()" id="logo" src="photos/mothicon.png">
             </div>
             <a href="index.html">home</a>
             <a href="meow.html">meow</a>
@@ -19,11 +25,10 @@
             <a href="aiohto.html">ai ohto</a>
             </div>
         </div>
-        <div class="back">
-            <div class="main">
-                <div class="textbox">
+        <div class="mouseback mothback">
+            <div class="mainmouse mainmoth">
+                <div class="textboxmouse textboxmoth">
                 </div>
-            <img scr="catt.png">
             </div>
         </div>
     </body>
