@@ -1,66 +1,77 @@
 body {
     margin: 0%;
-    position: relative;
+    position: fixed;
+    z-index: 1;
+    background-image: url(photos/mothback.jpg);
+}
+.container {
+    display:flex;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 .mouse {
     margin: 0%;
-    position: relative;
+    position: fixed;
+    background-image: url(photos/mouseback.jpg);
+}
+.back {
+    position: fixed;
+    height: 100%;
+    left: 15%;
+    width: 85%;
 }
 body div.mainmoth {
     background-color: #F5C084;
     min-height: 94%;
+    min-width: 81%;
     border-radius: 12px;
+    z-index: 2;
     margin: 2%;
 }
 body.mouse div.mainmouse {
     background-color: #512848;
-    min-height: 94%;
+    min-height: 94vh;
     border-radius: 12px;
+    z-index: 2;
     margin: 2%;
 }
 body.mouse div.textboxmouse {
     color: #F5C084;
-    padding: 2vw;
+    padding: 2vh 2vw 2vh 2vw;
     z-index: 1;
 }
 body div.textboxmoth {
     color: #512848;
-    padding: 2vw;
+    padding: 2vh 2vw 2vh 2vw;
     z-index: 1;
 }
 #logo {
-    min-width: 5vw;
-    min-height: 5vw;
-    max-width: 6vw; 
-    max-height: 6vw;
+    min-width: 80%; 
+    min-height: 80%;
+    margin: 4%;
 }
 .cent {
-    max-height: 14vw;
-    max-width: 14vw;
-    min-width: 5vw;
-    min-height: 5vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .boxbox {
     position: fixed;
     flex-direction: column;
     background-color: #0B3954;
     z-index: 3;
-    height: 150%;
-    max-width: 15%;
-    min-width: 15vw;
+    height: 100%;
+    width: 15%;
+    min-width: 180px;
     overflow-x: hidden;
 }
 div.boxbox a{
     position: relative;
     text-decoration: none;
     font-weight:700;
-    min-width:10%;
+    min-width: 180px;
     font-size: 1.8em;
-    min-width: 10vw;
     color: #FEBF56;
     padding: 1em 100% 1em 100%;
     margin: 0 -100% 0 -85%;
@@ -88,28 +99,48 @@ div.vanish:hover {
     display: block;
     position: relative;
 }
-body div.mothback{
-    position: fixed;
-    height: 100%;
-    width: 85%;
-    left: 15%;
-    overflow: hidden;
-    background-image: url(photos/mothback.jpg);
-}
-body.mouse div.mouseback{
-    position: fixed;
-    height: 100%;
-    width: 85%;
-    left: 15%;
-    overflow: hidden;
-    background-image: url(photos/mouseback.jpg);
-}
 #imgtex {
     float: right;
     z-index: 2;
     margin-left: 2em;
     margin-bottom: 2em;
 }
-.test {
-    background-image: url(photos/mothicon.png);
+@media screen and (max-width:1200px) {
+    .boxbox {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        background-color: #598faf;
+        opacity: 50%;
+        height: 100%;
+        width: 180px;
+        overflow-x: hidden;
+    }
+    .back {
+        position: relative;
+        justify-content: center;
+        float: right;
+        width: 100%;
+        height: 100%;
+        background-color: aquamarine;
+    }
+    body div.mainmoth {
+        background-color: #F5C084;
+        min-height: 96%;
+        width: 60%;
+        border-radius: 12px;
+    }
+    body.mouse div.mainmouse {
+        background-color: #512848;
+        min-height: 94%;
+        border-radius: 12px;
+        margin: 2%;
+    }
+}
+@media screen and (max-width:600px) {
+    .boxbox {
+        display:none;
+        z-index: 1;
+    }
+
 }
