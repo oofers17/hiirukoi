@@ -137,10 +137,17 @@ div.vanish:hover {
         margin: 2%;
     }
 }
-@media screen and (max-width:600px) {
+@media (min-width:600px) {
     .boxbox {
         display:none;
         z-index: 1;
     }
-
+    .header {
+        align-self: flex-end;
+        bottom: 0;
+        height: 100vh;
+        min-height: 1050px;
+        position: sticky;
+    }
+    
 }
